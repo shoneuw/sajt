@@ -1,0 +1,89 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.pre-header {
+	background-color: #111618;
+	height: 60px;
+	color: #fff;
+	padding-top: 15px;
+}
+.pre-header .secondary-menu{
+	list-style: none;
+}
+
+
+
+.pre-header .secondary-menu li {
+	display: inline-block;
+	margin-left: 15px;
+}
+
+.pre-header .secondary-menu li a {
+	color: #707374;
+	text-transform: uppercase;
+}
+
+.main-nav .main-menu {
+	list-style: none;
+	margin-top: 20px;
+
+}
+.main-nav .main-menu li {
+	display: inline-block;
+	margin-left: 15px;
+}
+
+.main-nav .main-menu li a {
+	color: #767676;
+	text-transform: uppercase;
+}
+
+.main-nav img {
+	margin-top: 10px;
+}
+
+.main-cta-btn {
+	background-color: #4f33f1;
+	padding: 10px;
+	color: white !important;
+	border: 1px solid #4f33f1;
+	transition: 0.3s; /* Prvo dugme */
+}
+
+.main-cta-btn:hover {
+	background-color: transparent;
+	color: #4f33f1 !important;
+	text-decoration: none;
+}
+
+.hero-section {
+	background-image: url(../images/hero.jpg);
+	padding-top: 115px;
+	padding-bottom: 115px;
+	background-size: cover;
+}
+
+.hero-section h1 {
+ 	color: white;
+ 	text-transform: uppercase;
+ 	font-size: 52px;
+ 	margin-bottom: 20px;
+}
+
+.hero-section p {
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.hero-section a {
+	background-color: #4f33f1;
+	padding: 10px;
+	color: white;
+	border: 1px solid #4f33f1;
+	transition: 0.3s;
+	display: inline-block; /*1:29:55*/
+}
